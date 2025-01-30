@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f4e3; /* Light orange background */
+}
+
+.container {
+    background-color: #ffffff; /* White background for container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #6a0dad; /* Purple color for heading */
+}
+
+#sample-text {
+    color: #6a0dad; /* Purple color for sample text */
+}
+
+#typing-input {
+    border: 2px solid #6a0dad; /* Purple border for input */
+}
+
+.btn-primary {
+    background-color: #6a0dad; /* Purple background for primary button */
+    border-color: #6a0dad; /* Purple border for primary button */
+}
+
+.btn-danger {
+    background-color: #ff6347; /* Light orange background for danger button */
+    border-color: #ff6347; /* Light orange border for danger button */
+}
+
+.btn-secondary {
+    background-color: #ffb347; /* Light orange background for secondary button */
+    border-color: #ffb347; /* Light orange border for secondary button */
+}
+
+#result {
+    color: #6a0dad; /* Purple color for result text */
+}
